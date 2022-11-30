@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "ltaznvsa",
-    "password": "BvBI7w1bOQoBVmbeP8ZMEaR_0Md2FV16",
-    "database":"ltaznvsa",
-    "host": "babar.db.elephantsql.com",
+    "username": "postgres",
+    "password": "postgres",
+    "database":"db12",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {

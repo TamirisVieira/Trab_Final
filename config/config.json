@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database":"db12",
-    "host": "127.0.0.1",
+    "username": "werfbrwf",
+    "password": "kS8Kbi_wdyMPxy3q3vEFsHo7nWJmjCy-",
+    "database":"werfbrwf",
+    "host": "babar.db.elephantsql.com",
     "dialect": "postgres"
   },
   "test": {

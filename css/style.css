@@ -1,5 +1,136 @@
 body {
-    font-family: sans-serif;
-    background-color: blueviolet;
+    margin: 0;
+    width: 100vw;
+    font-family: Courier New;
+    font-size: 1.2rem;
+    background-color: #c5f7d6;
 }
 
+img{
+    max-width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  .nav-items {
+    background-color: #62e5a6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo-sorv {
+    width: 9%;
+    height: 9%;
+    border-radius: 90px;
+  }
+  
+  .store-heading {
+    font-family: Courier New;
+    margin: 0;
+    font-size: 3rem;
+    color: #000e3f;
+  }
+  
+  .links-header {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .links-header-item {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .products {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    background-color: #fff;
+    width: 25%;
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .product-img {
+    width: 70%;
+  }
+  
+  .product-name {
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    width: 70%;
+    padding: 15px;
+  }
+  
+  .product-price {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    margin-top: 0;
+  }
+  
+  .footer {
+    background-color: #37383d;
+    display: flex;
+    width:100%;
+  }
+  
+  .links-footer {
+    width: 50%;
+    height: auto;
+    color: #fff;
+    list-style: none;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    background-color: #000e3f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.mapouter{
+    flex-direction: column;
+}
+
+.cont{
+    text-align: center;
+    padding: 2%;
+}
+
+.adic{
+    text-align: center;
+    padding: 1%;
+}
